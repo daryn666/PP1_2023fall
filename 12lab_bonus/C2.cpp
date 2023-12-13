@@ -10,4 +10,5 @@ int main(){
     }
     int p = log2(d);
     cout<<(powl(2, p)==d?"YES":"NO");
+    //cout<<(ceil(log2(d))==floor(log2(d))?"YES":"NO");
 }
