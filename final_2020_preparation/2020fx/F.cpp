@@ -9,7 +9,7 @@ bool order(string s){
     return false;
 }
 bool aaa(string s){return s.find('@') > 0;}
-bool bbb(string s){return s.find('.') > s.find('@');}
+bool bbb(string s){return s.find('.') > s.find('@')+1;}
 bool ccc(string s){return s.find('.') < (s.size()-1);}
 bool lower_letters(string s){
     return count_if(s.begin(), s.end(), static_cast<int(*)(int)>(std::islower)) == (s.size()-2);
